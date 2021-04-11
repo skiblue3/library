@@ -1,0 +1,22 @@
+main {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.grid {
+    border: 1px solid black;
+}
+.form {
+    width: 70%;
+    display: none;
+    border: 1px solid black;
+    padding: 25px;
+}
+.show-form {
+    display: flex;
+    flex-flow: column wrap;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
