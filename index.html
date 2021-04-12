@@ -5,26 +5,29 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@600;700&family=Dancing+Script:wght@700&family=Merienda&family=PT+Sans:wght@700&family=Roboto&family=Titillium+Web&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <header>
             <h1>Library</h1>
+            <button id="newBook">New Book</button>
         </header>
-        <button id="newBook">New Book</button>
+        
         <div class='form'>
             <form>
                 <label for="title">Title</label> 
-                <input type="text" id="title" placeholder="Nice">
+                <input type="text" id="title" placeholder="Title">
                 <label for="author">Author</label> 
-                <input type="text" id="author" placeholder="William Shakespeare">
+                <input type="text" id="author" placeholder="Author">
                 <label for="pages">Pages</label>
-                <input type="number" id="pages" placeholder="123" min="0">
-                <div>
+                <input type="number" id="pages" placeholder="Pages" min="0">
+                <div class='read-div'>
                     <label for="read">Read</label>
-                    <input type="checkbox"id="read" value="Read" name="Read">
+                    <input type="checkbox" id="read" value="Read" name="Read">
                 </div>
             </form>
-            <div>
+            <div id="form-buttons">
                 <button id="submit" class="form-buttons">Submit</button>
                 <button id="cancel" class="form-buttons">Cancel</button>
             </div>
